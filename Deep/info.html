@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Page</title>
+    <style>
+        .main {
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            background-color: black;
+            color: white;
+            height: 40px;
+            padding-left: 10px;
+            padding-top: 10px;
+            width: 200px;
+            border-bottom-left-radius: 5%;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
+            border-bottom-right-radius: 5%;
+        }
+
+        .right {
+            border: 1px solid black;
+            height: auto;
+            width: 1000px;
+            margin-left: 100px;
+            margin-top: 10px;
+        }
+
+        .right .header {
+            height: 50px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 32px;
+        }
+
+        table {
+            border-bottom-left-radius: 5%;
+            border-top-left-radius: 5%;
+            border-top-right-radius: 5%;
+            border-bottom-right-radius: 5%;
+        }
+
+        .class1 {
+            margin-left: 20px;
+            padding-top: 20px;
+            width: 20%;
+        }
+
+        .class2 {
+            margin-left: 20px;
+            margin-top: 20px;
+            width: 20%;
+        }
+
+        .class3 {
+            margin-left: 20px;
+            padding-top: 20px;
+            width: 20%;
+        }
+
+        .class4 {
+            margin-left: 20px;
+            margin-top: 20px;
+            width: 20%;
+        }
+
+        .class5 {
+            margin-left: 20px;
+            padding-top: 20px;
+            width: 40%;
+        }
+
+        .class6 {
+            margin-left: 20px;
+            margin-top: 20px;
+            width: 20%;
+        }
+
+        .left-content {
+            display: inline-block;
+        }
+
+        .middle-content {
+            display: inline-block;
+            margin-left: 220px;
+            }
+
+        .right-content {
+            display: inline-block;
+            margin-left: 270px;
+        }
+
+        @media screen and (max-width: 1163px) {
+            .left{
+                display: none;
+            }
+        }
+
+        @media screen and (nax-width: 920px) {
+            .middle-content .right-content {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <ul>
+                <li>Public</li><br>
+                <li>View</li><br>
+                <li>HR</li><br>
+                <li>Network Details</li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <div class="header">
+                <strong>Details</strong>
+            </div>
+
+            <div class="left-content">
+                <div class="class1">
+                    <table>
+                        <tr>
+                            <td><strong>Name:</strong></td>
+                            <td>abc</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Value:</strong></td>
+                            <td>def</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Extra:</strong> </td>
+                            <td>xyz</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="class2">
+                    <table>
+                        <tr>
+                            <td><strong>Name:</strong></td>
+                            <td>abc</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Value:</strong></td>
+                            <td>def</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Extra:</strong> </td>
+                            <td>xyz</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="middle-content">
+                <div class="class3">
+                    <table>
+                        <tr>
+                            <td><strong>Name:</strong></td>
+                            <td>abc</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Value:</strong></td>
+                            <td>def</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Extra:</strong> </td>
+                            <td>xyz</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="class4">
+                    <table>
+                        <tr>
+                            <td><strong>Name:</strong></td>
+                            <td>abc</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Value:</strong></td>
+                            <td>def</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Extra:</strong> </td>
+                            <td>xyz</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="right-content">
+                <div class="class5">
+                    <table>
+                        <tr>
+                            <td><strong>Name:</strong></td>
+                            <td>abc</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Value:</strong></td>
+                            <td>def</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Extra:</strong> </td>
+                            <td>xyz</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="class6">
+                    <table>
+                        <tr>
+                            <td><strong>Name:</strong></td>
+                            <td>abc</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Value:</strong></td>
+                            <td>def</td>
+                        </tr>
+
+                        <tr>
+                            <td><strong>Extra:</strong> </td>
+                            <td>xyz</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
